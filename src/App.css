@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #161b22;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  color: #58a6ff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #58a6ff;
+}
+
+/* Main Container */
+.container {
+  margin-top: 80px;
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #58a6ff;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.connect-btn {
+  background: #238636;
+  color: white;
+}
+
+.connect-btn:hover {
+  background: #2ea043;
+}
+
+.refresh-btn {
+  background: #1f6feb;
+  color: white;
+}
+
+.refresh-btn:hover {
+  background: #418af9;
+}
+
+.deposit-btn {
+  background: #6a1b9a;
+  color: white;
+}
+
+.deposit-btn:hover {
+  background: #7b1fa2;
+}
+
+.send-btn {
+  background: #d32f2f;
+  color: white;
+}
+
+.send-btn:hover {
+  background: #e53935;
+}
+
+/* Inputs */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #30363d;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Wallet Info */
+.wallet-address,
+.balance {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #8b949e;
+  font-weight: 500;
+}
