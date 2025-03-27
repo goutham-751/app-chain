@@ -1,0 +1,138 @@
+.security-dashboard {
+    background: rgba(20, 30, 48, 0.8);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  .security-score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .security-score {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .score-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .score-label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #86868b;
+  }
+  
+  .security-status {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+  
+  .status-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .status-label {
+    font-weight: bold;
+    color: #86868b;
+  }
+  
+  .status-value {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .status-value.protected {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4CAF50;
+  }
+  
+  .status-value.not-protected {
+    background: rgba(244, 67, 54, 0.2);
+    color: #F44336;
+  }
+  
+  .security-alerts {
+    margin-top: 30px;
+  }
+  
+  .security-alerts h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .security-alerts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .security-alerts li {
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  .alert-high {
+    background: rgba(244, 67, 54, 0.1);
+    border-left: 4px solid #F44336;
+  }
+  
+  .alert-medium {
+    background: rgba(255, 193, 7, 0.1);
+    border-left: 4px solid #FFC107;
+  }
+  
+  .alert-low {
+    background: rgba(76, 175, 80, 0.1);
+    border-left: 4px solid #4CAF50;
+  }
+  
+  .alert-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .alert-severity {
+    font-weight: bold;
+  }
+  
+  .alert-high .alert-severity {
+    color: #F44336;
+  }
+  
+  .alert-medium .alert-severity {
+    color: #FFC107;
+  }
+  
+  .alert-low .alert-severity {
+    color: #4CAF50;
+  }
+  
+  .alert-time {
+    font-size: 12px;
+    color: #86868b;
+  }
+  
+  .alert-message {
+    color: #ffffff;
+  }
+  
